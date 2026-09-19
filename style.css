@@ -309,7 +309,7 @@ button:focus-visible {
 
 .hero-dane {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     border-top: 1px solid rgba(255,255,255,0.14);
 }
 .hero-dana { padding: 1.15rem 1.4rem 1.3rem; border-right: 1px solid rgba(255,255,255,0.14); }
@@ -521,6 +521,8 @@ section.blok { padding: 3.6rem 0; }
     color: var(--tekst);
     margin-bottom: 0.3rem;
 }
+/* Wersja demo - oferty są przykładowe, do podmiany na prawdziwe */
+.promocje-intro-demo { border-left-color: var(--marka); }
 .promocje-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -538,6 +540,19 @@ section.blok { padding: 3.6rem 0; }
     padding: 1.5rem;
     box-shadow: var(--cien);
 }
+.promocja-demo {
+    align-self: flex-start;
+    font-family: var(--font-dane);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--tekst-wyciszony);
+    border: 1px dashed var(--linia-mocna);
+    border-radius: var(--promien);
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 0.9rem;
+}
 .promocja-rabat {
     font-family: var(--font-dane);
     font-size: 1.5rem;
@@ -547,7 +562,7 @@ section.blok { padding: 3.6rem 0; }
     color: var(--marka);
     margin-bottom: 0.8rem;
 }
-.promocja-karta h3 { margin: 0 0 0.4rem; font-size: 1.02rem; }
+.promocja-karta h2 { margin: 0 0 0.4rem; font-size: 1.02rem; }
 .promocja-karta p { color: var(--tekst-wyciszony); font-size: 0.91rem; margin-bottom: 0.5rem; }
 .promocja-cena {
     font-family: var(--font-dane);
